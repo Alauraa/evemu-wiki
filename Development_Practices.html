@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+
+<!-- Mirrored from wiki.evemu.org/index.php/Development_Practices by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Aug 2015 15:57:28 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<title>Development Practices - EVEmu Wiki</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.19.1" />
+<link rel="shortcut icon" href="http://wiki.evemu.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://wiki.evemu.org/opensearch_desc.php" title="EVEmu Wiki (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://wiki.evemu.org/api.php?action=rsd" />
+<link rel="copyright" href="http://www.gnu.org/copyleft/fdl.html" />
+<link rel="alternate" type="application/atom+xml" title="EVEmu Wiki Atom feed" href="http://wiki.evemu.org/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="http://wiki.evemu.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: evemu_wiki-pubwiki_:resourceloader:filter:minify-css:7:c88e2bcd56513749bec09a7e29cb3ffa */
+</style>
+
+<script src="http://wiki.evemu.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Development_Practices","wgTitle":"Development Practices","wgCurRevisionId":1129,"wgArticleId":42,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgRelevantPageName":"Development_Practices","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":false,"expandablesearch":false,"footercleanup":false,"sectioneditlinks":false,"simplesearch":true,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":false,"dialogs":false,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,
+"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"vector-simplesearch":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function($){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+
+/* cache key: evemu_wiki-pubwiki_:resourceloader:filter:minify-js:7:66a938cc0955964f33213004042d63fb */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Development_Practices skin-vector action-view">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading">
+				<span dir="auto">Development Practices</span>
+			</h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From EVEmu Wiki</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to: <a href="#mw-head">navigation</a>,
+					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="wikitable">
+
+<tr>
+<td> <b>NAVIGATION</b>
+</td>
+<td> <a href="Main_Page.html" title="Main Page">HOME</a> / <a href="Category_EVEmu_Development.html" title="Category:EVEmu Development">EVEmu Development</a> / <b>Development Practices</b> (you are here)
+</td></tr></table>
+<p><br />
+<b>This page is devoted to describing the best practices, methods, and policies that EVEmu Developers espouse to uphold while working on the EVEmu Project.  All Developers are expected to follow these guidelines and policies all in the effort to ensure a smoothly executed development process and collaborative effort to produce great quality code and a great product.</b>
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Source_Control"><span class="tocnumber">1</span> <span class="toctext">Source Control</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Coding_Styles_and_Standards"><span class="tocnumber">2</span> <span class="toctext">Coding Styles and Standards</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Bug_Reporting"><span class="tocnumber">3</span> <span class="toctext">Bug Reporting</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Forum_Wiki_IRC_and_Voice_Chat_Ettiquete"><span class="tocnumber">4</span> <span class="toctext">Forum Wiki IRC and Voice Chat Ettiquete</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Source_Control"> Source Control </span></h1>
+<p>TODO: describe how we use github, git, repos, branches, tags, and merges.
+</p><p><b>GIT</b>:
+</p>
+<ul><li> Our process for developers to contribute:
+<ol><li> Get your <b>own</b> account on <b>Github</b> and <b>Fork</b> the <a rel="nofollow" class="external text" href="http://www.github.com/evemuproject">evemuproject</a> repository for which you wish to contribute (evemu_server, evemu_control_panel, etc)
+</li><li> Git clone your fork on github to your local machine - <a rel="nofollow" class="external text" href="https://help.github.com/articles/fork-a-repo">Github's help on forking a repo and cloning it</a>
+</li><li> Make some changes to code as you work on a feature implementation, enhancement, or bug fix
+</li><li> Commit those changes with a descriptive commit message (see below at <b>Commits</b>)
+</li><li> If the feature is not working yet because you have more changes to make, repeat the previous two steps until you have something worth posting up for the community to review and try out
+</li><li> When you're ready to post a bundle of commits as a Pull Request, first, exit Visual Studio, then RE-run CMake Configure then Generate.  Open Visual Studio again and do a FULL REBUILD of the <b>ALL_BUILD</b> project.  When the build is finished, run the server and in the console window, ensure the <b>version:</b> reads the latest tag, the master branch, and your latest commit ID, something like <b>0.7.12-master-ba5d6d3</b>.  The first three numbers are the tag (at git cmd line, type <b>git tag</b> to list all tags, see which is highest).  The middle string is your branch (should be master unless you're working on a parallel branch).  The last is your latest commitID (at git cmd line, type <b>git log --oneline</b> and at top of that list on the left is your latest commitID showing the first 7 digits or so).
+</li><li> After you've ensured your build matches the latest tag and commitID, go to your Github account page under your fork of the repository you're working on, then either click on the green square button to the left of the branch change drop-down (below the # of commits display) OR click on the label <b>Pull Request</b> to the upper right of the area that lists the folders and files in your repository.  It's to the left of a label <b>Compare</b> in the heading bar above the list of files and folders.
+</li><li> Next, click the button with blue box border labeled <b>Click to create a pull request for this comparison</b>
+</li><li> Right away, Github gives you feedback on whether the maintainers of the repository to which you're pushing a pull request will be able to automatically merge your pull request's changes.  If you don't get the green check mark and the message <b>Able to merge</b>, then you'll need to bring your fork up to date with the original repository and try again.
+</li><li> If you do get the green check, enter a Title and Description for your pull request and click <b>Send Pull Request</b> button and away it goes!
+</li><li> Please be patient as it will take some time for the EVEmu Development team to review and discuss, perhaps even test, your pull request's changes.  It may even be rejected, but the team will provide some helpful comments on the pull request whether it has been rejected or not.  These things are often an iterative process, so be patient and be prepared to expect to have to make further changes before the development team accepts the pull request.  The higher quality code changes you make and the more you discussed the changes with developers ahead of submitting the pull request, the more likely your pull request may be accepted on the first round after some review period.
+</li></ol>
+</li></ul>
+<p><b>Commits</b>:
+</p>
+<ul><li> when making commits, keep them small, a few files or so, and commit OFTEN!  this leaves you nice history of your work as it progresses
+</li><li> when making commits, either use a GUI such as <b><a rel="nofollow" class="external text" href="http://www.syntevo.com/smartgithg/">SmartGitHg</a></b> or <b><a rel="nofollow" class="external text" href="http://www.youtube.com/watch?v=oyQ05jsqakg">git gui</a></b> to write your commit messages, stage files for commit, and ultimately commit the changes and even push them up to your fork for issuance of a pull request to the main evemuproject project page
+</li><li> write commit messages that make sense and are descriptive enough to tell others what you did and why
+<ul><li> BAD Commit message: <b>i changed some code</b>
+</li><li> MEH Commit message: <b>i added some classes to the module manager</b>
+</li><li> BEST Commit message: <b>Added Effects, EffectsMap, and ShipBonusModifierMap classes to the ModuleManager effort.  Updated SQL files for the following tables 'dgmEffectsInfo', 'dgmShipBonusModifiers' to match the data pulled and reformatted from EVEHQ CSV files.  Added completed LibreOffice spreadsheets for the following EVEHQ CSV files: Effects.ods, ShipBonuses.ods, SkillBonuses.ods</b>
+</li></ul>
+</li><li> when making commits as part of a larger effort, such as to fix Private Convos in the LSC system, or implement P2P trades in the Trade Service, keep your commits local until you have a feature working, then post up a pull request with a bundle of commits rather than posting pull requests for each small commit you make
+</li></ul>
+<h1> <span class="mw-headline" id="Coding_Styles_and_Standards"> Coding Styles and Standards </span></h1>
+<p>While we do not have a formal coding style guide, let me put it as simply as I can:
+</p>
+<ul><li> Please stay within the spirit of the design and styles that you see already being used in the code, to the extent that you can.
+</li><li> Please do not do major edits of whitespace all over (changing tabs to 4-space chunks, making separation between functions 2 lines instead of one, etc)
+</li><li> Please do not make large edits of comments, but rather keep them compartmentalized into sections of code, such as within the LSC chat system or Ship class
+</li></ul>
+<p><br style="clear:both;" />
+</p>
+<h1> <span class="mw-headline" id="Bug_Reporting"> Bug Reporting </span></h1>
+<p><b><a rel="nofollow" class="external text" href="http://bugs.evemu.net/">BUG TRACKER</a></b> Our bug tracking website is here and uses bugzilla.
+</p><p><b>IMPORTANT</b> - Before posting a bug, please take a few minutes to search the bug database for the project you're working on to see if someone else already reported the bug.  If this is similar to another bug or bugs, we can link them together, but it's ok to post a new bug if there are aspects about it that are unique from the other similar bug reports.
+</p><p>Please post bugs using the following format, <a rel="nofollow" class="external text" href="https://github.com/evemuproject/evemu_server/issues/62">for which this report by me is a good example</a>
+</p>
+<ul><li> <b>PROBLEM</b>
+<ul><li> Describe what the problem is and what you were doing when it occurred.  Please post server console log in <a rel="nofollow" class="external text" href="http://www.levelbelow.net/pasetbin">EVEmu's Pastebin</a> and mark expiration as NEVER, then post a link to that pastebin in this section.  Feel free to upload to <a rel="nofollow" class="external text" href="http://imgur.com/">imgur.com</a> or other photo sharing site a screenshot of the client if applicable when something weird or unexpected happens and link to the image in this section.
+</li></ul>
+</li><li> <b>STEPS TO REPRODUCE</b>
+<ul><li> In this section, please describe in as best a detail and accuracy as you can the steps someone else must take in order to reproduce this problem.  It is absolutely essential that developers and bug fixers have these steps as they must be able to reproduce the bugs or crashes in order to start investigating them and eventually fix them.  We certainly understand if you cannot recall or are somehow unable to describe how the problem occurred.  If that is the case, please do your best in describing how you came about the crash or bug and what you were doing leading up to when it happened.
+</li></ul>
+</li><li> <b>WORKAROUNDS</b>
+<ul><li> This section is meant to capture known methods by which you can accomplish what you were trying to do, but in a slightly different way.  An example could be "I was trying to buy something off the market, but opening up the market window crashed the server."  For this, a possible effective workaround would be "I can still use .create GM command to give myself the item I wanted."
+</li></ul>
+</li><li> <b>PROPOSED SOLUTIONS</b>
+<ul><li> This section is really reserved for developers posting bugs that may be somewhat or very familiar with the systems behind the scenes in the server that relate to the bug or crash.  This section is meant to be a notepad of sorts to jot down ideas as to how the problem could be fixed or circumvented when they are fresh in the mind of the developer that encountered the bug or crash.  Most users and testers may leave this blank unless you think you have a good idea&#160;:)
+</li></ul>
+</li></ul>
+<p><br style="clear:both;" />
+</p>
+<h1> <span class="mw-headline" id="Forum_Wiki_IRC_and_Voice_Chat_Ettiquete"> Forum Wiki IRC and Voice Chat Ettiquete </span></h1>
+<p>how we treat each other when communicating
+</p>
+<!-- 
+NewPP limit report
+Preprocessor node count: 65/1000000
+Post-expand include size: 386/2097152 bytes
+Template argument size: 94/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key evemu_wiki-pubwiki_:pcache:idhash:42-0!*!0!!en!*!* and timestamp 20150804155633 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="http://wiki.evemu.org/index.php?title=Development_Practices&amp;oldid=1129">http://wiki.evemu.org/index.php?title=Development_Practices&amp;oldid=1129</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks catlinks-allhidden'></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id="mw-head" class="noprint">
+			
+<!-- 0 -->
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+		<li id="pt-login"><a href="http://wiki.evemu.org/index.php?title=Special:UserLogin&amp;returnto=Development+Practices" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+	</ul>
+</div>
+
+<!-- /0 -->
+			<div id="left-navigation">
+				
+<!-- 0 -->
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="Development_Practices.html"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+					<li  id="ca-talk" class="new"><span><a href="http://wiki.evemu.org/index.php?title=Talk:Development_Practices&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" class="vectorMenu emptyPortlet">
+	<h4>
+		</h4>
+	<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id="right-navigation">
+				
+<!-- 0 -->
+<div id="p-views" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="Development_Practices.html" >Read</a></span></li>
+					<li id="ca-viewsource"><span><a href="http://wiki.evemu.org/index.php?title=Development_Practices&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="http://wiki.evemu.org/index.php?title=Development_Practices&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="http://wiki.evemu.org/index.php" id="searchform">
+				<div>
+			<input type="search" name="search" title="Search EVEmu Wiki [f]" accesskey="f" id="searchInput" />			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton" />			<input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton" />					<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo"><a style="background-image: url(../skins/evemu/images/evemu2.png);" href="Main_Page.html"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- EVEmu Wiki -->
+<div class="portal" id='p-EVEmu_Wiki'>
+	<h5>EVEmu Wiki</h5>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page.html" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-Connect"><a href="EVEmu_Connect.html">Connect</a></li>
+			<li id="n-Templates"><a href="Category_Templates.html">Templates</a></li>
+			<li id="n-currentevents"><a href="EVEmu_Wiki_Current_events.html" title="Find background information on current events">Current events</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges.html" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-randompage"><a href="EVE_Protocol.html" title="Load a random page [x]" accesskey="x">Random page</a></li>
+			<li id="n-help"><a href="Help_Contents.html" title="The place to find out">Help</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /EVEmu Wiki -->
+
+<!-- EVEmu Sites -->
+<div class="portal" id='p-EVEmu_Sites'>
+	<h5>EVEmu Sites</h5>
+	<div class="body">
+		<ul>
+			<li id="n-Forums"><a href="http://forum.evemu.org/" rel="nofollow">Forums</a></li>
+			<li id="n-Source-Code-.28Github.29"><a href="https://github.com/evemuproject" rel="nofollow">Source Code (Github)</a></li>
+			<li id="n-Pastebin"><a href="http://www.levelbelow.net/pastebin" rel="nofollow">Pastebin</a></li>
+			<li id="n-Trac-.28old.29"><a href="http://trac.evemu.org/" rel="nofollow">Trac (old)</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /EVEmu Sites -->
+
+<!-- TOOLBOX -->
+<div class="portal" id='p-tb'>
+	<h5>Toolbox</h5>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Development_Practices.html" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Development_Practices.html" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages.html" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li><a href="http://wiki.evemu.org/index.php?title=Development_Practices&amp;printable=yes" rel="alternate">Printable version</a></li>
+			<li id="t-permalink"><a href="http://wiki.evemu.org/index.php?title=Development_Practices&amp;oldid=1129" title="Permanent link to this revision of the page">Permanent link</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+		<div id="footer">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 15 October 2014, at 00:22.</li>
+											<li id="footer-info-viewcount">This page has been accessed 2,337 times.</li>
+											<li id="footer-info-copyright">Content is available under <a class="external" href="http://www.gnu.org/copyleft/fdl.html">GNU Free Documentation License 1.3 or later</a>.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="EVEmu_Wiki_Privacy_policy.html" title="EVEmu Wiki:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="EVEmu_Wiki_About.html" title="EVEmu Wiki:About">About EVEmu Wiki</a></li>
+											<li id="footer-places-disclaimer"><a href="EVEmu_Wiki_General_disclaimer.html" title="EVEmu Wiki:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://www.gnu.org/copyleft/fdl.html"><img src="../skins/common/images/gnu-fdl.png" alt="GNU Free Documentation License 1.3 or later" width="88" height="31" /></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="../skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script src="http://wiki.evemu.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.simpleSearch"], null, true);
+}</script>
+<!-- Served in 0.162 secs. -->
+	</body>
+
+<!-- Mirrored from wiki.evemu.org/index.php/Development_Practices by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Aug 2015 15:57:29 GMT -->
+</html>
